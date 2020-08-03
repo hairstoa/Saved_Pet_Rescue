@@ -224,7 +224,7 @@ textarea.adoption-form-text{
   transition: 0.5s;
 }
 
-.info-category:hover, .prep:hover, .food:hover, .training:hover, .fun:hover{
+.info-link:hover, .prep:hover, .food:hover, .training:hover, .fun:hover{
   box-shadow: 0 0 10px 4px #ddd;
 }
 /* .info-category > div{
