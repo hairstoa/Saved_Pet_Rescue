@@ -1,0 +1,323 @@
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+h1, h3 {
+  color: #c06c84;
+  font-family: 'Rock Salt', cursive;
+}
+
+h2{
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  pointer-events: none;
+}
+
+hr{
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bottom-container{
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.bottom-container p{
+  font-size: 10px;
+}
+.button {
+  background-color: #6c5b7c;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  display: inline-block;
+  font-size: 18px;
+  /*margin: 4px 2px;*/
+  margin: auto auto 20px auto;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #f67280;
+  color: white;
+}
+
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border:0;
+  cursor: pointer;
+}
+
+.carousel-button img{
+  width: 15;
+}
+
+.carousel-button--left{
+  left:-50px;
+}
+
+.carousel-button--right{
+  right:-50px;
+}
+
+.carousel-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-nav{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel-slide {
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-swap{
+  background: rbga(0, 0, 0,.3);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  margin: 0 15px;
+  width: 15px;
+}
+
+.carousel-swap.current-slide{
+  background: rgba(0,0,0,.75);
+}
+.carousel-track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+  position: relative;
+  transition: transform 250ms ease-in;
+}
+
+.header-link{
+  color: black;
+  padding-right: 20px;
+}
+
+.header-link:hover{
+  color: #f67280;
+}
+
+.is-hidden{ display: none;}
+
+.mission, .apply-info{
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 30px auto 20px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.navBar{
+  margin: 0 auto 0 10%;
+  padding: 30px 30px 30px 0;
+  text-align: left;
+}
+
+.NyokiIcon {
+  width: 100px;
+  position: absolute;
+  right: 10%;
+  top: 5px;
+}
+/* Resources */
+.fun{
+  background: #f67280;
+  grid-column: 1/3;
+  cursor: pointer;
+}
+
+.food{
+  background: #6c5b7c;
+  grid-column: 3/3;
+  grid-row: 1/3;
+  cursor: pointer;
+}
+
+.prep{
+  background: #c06c84;
+  cursor: pointer;
+}
+
+.training{
+  background: #f8bf95;
+  cursor: pointer;
+}
+
+.info-category{
+  display: grid;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  margin: auto 1em 1em 1em;
+  transition: 0.5s;
+}
+/* .info-category > div{
+  padding: 1em;
+  border-radius: 20px;
+  background: #eee;
+}
+
+.info-category > div:nth-child(odd){
+  background: #ddd;
+} */
+
+.info-link{
+  color: black;
+  height: 250px;
+  padding: 1em;
+  border-radius: 20px;
+  background: #eee;
+  transition: 0.5s;
+}
+
+.info-category div:nth-child(even){
+  background: #ddd;
+}
+
+/* .info-link:nth-of-type(2n){
+  background: #ddd;
+} */
+
+.resource-wrapper{
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  margin: auto 1em 1em 1em;
+  color: white;
+  transition: 0.5s;
+}
+
+.resource-wrapper > div{
+  padding: 2em;
+  border-radius: 20px;
+}
+
+/* Contact Us */
+/* CITATION - This contact form code was inspired by:
+Dark Code(2018)."Responsive Contact Us Section Using Only HTML & CSS".
+[YouTube video].https://www.youtube.com/watch?v=opbtRRSHGnk.
+*/
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-button{
+  border: 0;
+  background: #34495e;
+  color: white;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-button:hover{
+  background: #2980b9;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  border-radius: 25px;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.contact-form-text:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+.contact-section{
+  background: url(../images/contact.jpg) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+  text-align: center;
+}
+.scroll-box{
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-box::-webkit-scrollbar{
+  width: 12px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb{
+  background: #f67280;
+  border-radius: 6px;
+}
+
+textarea.contact-form-text{
+  resize:none;
+  height: 120px;
+  font-family: 'Lato', sans-serif;
+}
+.volunteer{
+  font-size: 18px;
+  line-height: 1.8;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.volunteer-tasks, .volunteer-items{
+  list-style: none;
+  padding-inline-start: 0;
+}
