@@ -160,6 +160,24 @@ hr{
   right: 10%;
   top: 5px;
 }
+/* Application */
+.adoption-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #eee;
+  border-radius: 25px;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+}
+
+.adoption-form-text:hover{
+  box-shadow: 0 0 10px 4px #ddd;
+}
+
 /* Resources */
 .fun{
   background: #f67280;
