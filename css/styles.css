@@ -223,6 +223,10 @@ textarea.adoption-form-text{
   margin: auto 1em 1em 1em;
   transition: 0.5s;
 }
+
+.info-category:hover, .prep:hover, .food:hover, .training:hover, .fun:hover{
+  box-shadow: 0 0 10px 4px #ddd;
+}
 /* .info-category > div{
   padding: 1em;
   border-radius: 20px;
