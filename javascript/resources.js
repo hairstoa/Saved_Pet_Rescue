@@ -1,7 +1,8 @@
 const topics = Array.from(document.querySelector('.resource-wrapper').children);
 const infoCategories = Array.from(document.querySelector('.info').children);
-console.log(infoCategories);
+const opacity = 0.6;
 var current = topics[3];
+current.style.opacity = opacity;
 // Set the default topic and hide all other links
 var topicClass = 'info-' + current.className;
 current.classList.add('visible');
@@ -30,6 +31,9 @@ topics.forEach(topic => {
     if (e.target.classList.contains('visible')){
       return;
     }
+    // Changle opacity of old and new topics
+    topics.forEach(topic => topic.style.opacity = 1);
+    e.target.style.opacity = opacity;
     // Otherwise remove current visible topicClass
     const previous = Array.from(document.querySelectorAll('.visible'));
 console.log(previous);
