@@ -239,7 +239,7 @@ textarea.adoption-form-text{
 
 .info-link{
   color: black;
-  height: 250px;
+  min-height: 250px;
   padding: 1em;
   border-radius: 20px;
   background: #eee;
