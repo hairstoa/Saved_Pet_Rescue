@@ -4,6 +4,7 @@ a{
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
   margin: 0;
 }
 
@@ -24,6 +25,10 @@ hr{
   margin-bottom: 15px;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 .bottom-container{
   margin: auto;
   padding: 25px;
@@ -31,7 +36,7 @@ hr{
 }
 
 .bottom-container p{
-  font-size: 10px;
+  font-size: 1.0rem;
 }
 .button {
   background-color: #6c5b7c;
@@ -43,7 +48,7 @@ hr{
   text-decoration: none;
   transition: 0.5s;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.8rem;
   /*margin: 4px 2px;*/
   margin: auto auto 20px auto;
   cursor: pointer;
@@ -141,7 +146,7 @@ hr{
 .is-hidden{ display: none;}
 
 .mission, .apply-info{
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.8;
   margin: 30px auto 20px auto;
   text-align: center;
@@ -335,7 +340,7 @@ textarea.contact-form-text{
   font-family: 'Lato', sans-serif;
 }
 .volunteer{
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.8;
   margin: auto;
   text-align: center;
