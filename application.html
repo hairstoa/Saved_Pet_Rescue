@@ -38,8 +38,31 @@
     All dogs are spayed/neutered and microchipped.
     </p>
     <!-- Form -->
-    <form class="application-form" action="index.html" method="post">
-
+    <form class="adoption-form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+      <input type="text" class="adoption-form-text" name="name" placeholder="Your Name" required>
+      <input type="tel"  class="adoption-form-text" name="telephone" placeholder="Your Phone" required>
+      <input type="email"  class="adoption-form-text" name="email" placeholder="Your Email">
+      <input type="text" class="adoption-form-text" name="street-address" placeholder="Your Street Address">
+      <input type="text" class="adoption-form-text" name="city-address" placeholder="City">
+      <input type="text" class="adoption-form-text" name="state-address" placeholder="State">
+      <input type="number" class="adoption-form-text" name="zip-address" placeholder="Zip Code">
+      <input type="radio" class="adoption-form-text" name="home-owner" value="Rent">
+      <input type="radio" class="adoption-form-text" name="home-owner" value="Own">
+      <input type="text" class="adoption-form-text" name="landlord-name" placeholder="Landlord's Name">
+      <input type="tel"  class="adoption-form-text" name="landlord-phone" placeholder="Landlord's Phone">
+      <input type="text"  class="adoption-form-text" name="dog-name" placeholder="Dog(s) You Want to Adopt">
+      <textarea class="contact-form-text" name="why-adopt" placeholder="Why do you want a dog?"></textarea>
+      <textarea class="contact-form-text" name="dog-grooming" placeholder="How will you groom the dog?"></textarea>
+      <textarea class="contact-form-text" name="dog-sleep" placeholder="Where will the dog sleep?"></textarea>
+      <textarea class="contact-form-text" name="dog-exercise" placeholder="How will you exercise the dog?"></textarea>
+      <textarea class="contact-form-text" name="dog-previous" placeholder="Have you owned a dog before?"></textarea>
+      <input type="text" class="adoption-form-text" name="vet-name" placeholder="Veterinarian Name">
+      <input type="tel"  class="adoption-form-text" name="vet-phone" placeholder="Veterinarian Phone">
+      <input type="text" class="adoption-form-text" name="ref1-name" placeholder="Reference #1 Name">
+      <input type="tel"  class="adoption-form-text" name="ref1-phone" placeholder="Reference #1 Phone">
+      <input type="text" class="adoption-form-text" name="ref2-name" placeholder="Reference #2 Name">
+      <input type="tel"  class="adoption-form-text" name="ref2-phone" placeholder="Reference #2 Phone">
+      <input type="submit" class="contact-form-button" value="SEND">
     </form>
   </div>
   <hr />
