@@ -191,25 +191,33 @@ textarea.adoption-form-text{
 
 /* Resources */
 .fun{
-  background: #f67280;
+  background: url(../images/resources/fun.png) no-repeat center;
+  background-size: cover;
+  /*background: #f67280;*/
   grid-column: 1/3;
   cursor: pointer;
 }
 
 .food{
-  background: #6c5b7c;
+  background: url(../images/resources/food.png) no-repeat center;
+  background-size: cover;
+  /*background: #6c5b7c;*/
   grid-column: 3/3;
   grid-row: 1/3;
   cursor: pointer;
 }
 
 .prep{
-  background: #c06c84;
+  background: url(../images/resources/prep.png) no-repeat center;
+  background-size: cover;
+  /*background: #c06c84;*/
   cursor: pointer;
 }
 
 .training{
-  background: #f8bf95;
+  background: url(../images/resources/training.png) no-repeat center;
+  background-size: cover;
+  /*background: #f8bf95;*/
   cursor: pointer;
 }
 
