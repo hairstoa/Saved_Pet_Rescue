@@ -38,8 +38,9 @@ html{
   color: black;
 }
 .bottom-container{
+  background: #ddd;
   margin: auto;
-  padding: 25px;
+  padding: 25px 25px 5px 25px;
   text-align: center;
 }
 
