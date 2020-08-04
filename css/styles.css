@@ -1,4 +1,4 @@
-a{
+a {
   text-decoration: none;
 }
 
@@ -13,40 +13,42 @@ h1, h3 {
   font-family: 'Rock Salt', cursive;
 }
 
-h2{
+h2 {
   color: white;
   font-family: 'Rock Salt', cursive;
   pointer-events: none;
 }
 
-hr{
+hr {
   border: none;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-#big-logo{
+#big-logo {
   width: 40%;
 }
 
-#index-name{
+#index-name {
   font-size: 4rem;
   color: black;
 }
-.bottom-container{
+
+.bottom-container {
   background: #ddd;
   margin: auto;
   padding: 25px 25px 5px 25px;
   text-align: center;
 }
 
-.bottom-container p{
+.bottom-container p {
   font-size: 1.0rem;
 }
+
 .button {
   background-color: #6c5b7c;
   border: none;
@@ -63,7 +65,7 @@ html{
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   background-color: #f67280;
   color: white;
 }
@@ -75,25 +77,25 @@ html{
   margin: 0 auto;
 }
 
-.carousel-button{
+.carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
-  border:0;
+  border: 0;
   cursor: pointer;
 }
 
-.carousel-button img{
+.carousel-button img {
   width: 15;
 }
 
-.carousel-button--left{
-  left:-50px;
+.carousel-button--left {
+  left: -50px;
 }
 
-.carousel-button--right{
-  right:-50px;
+.carousel-button--right {
+  right: -50px;
 }
 
 .carousel-container {
@@ -108,7 +110,7 @@ html{
   object-fit: cover;
 }
 
-.carousel-nav{
+.carousel-nav {
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -121,8 +123,8 @@ html{
   width: 100%;
 }
 
-.carousel-swap{
-  background: rbga(0, 0, 0,.3);
+.carousel-swap {
+  background: rbga(0, 0, 0, .3);
   border: 0;
   border-radius: 50%;
   cursor: pointer;
@@ -131,9 +133,10 @@ html{
   width: 15px;
 }
 
-.carousel-swap.current-slide{
-  background: rgba(0,0,0,.75);
+.carousel-swap.current-slide {
+  background: rgba(0, 0, 0, .75);
 }
+
 .carousel-track {
   padding: 0;
   margin: 0;
@@ -143,18 +146,20 @@ html{
   transition: transform 250ms ease-in;
 }
 
-.header-link{
+.header-link {
   color: black;
   padding-right: 20px;
 }
 
-.header-link:hover{
+.header-link:hover {
   color: #f67280;
 }
 
-.is-hidden{ display: none;}
+.is-hidden {
+  display: none;
+}
 
-.mission, .apply-info{
+.mission, .apply-info {
   font-size: 1.8rem;
   line-height: 1.8;
   margin: 30px auto 20px auto;
@@ -162,7 +167,7 @@ html{
   width: 50%;
 }
 
-.navBar{
+.navBar {
   margin: 0 auto 0 10%;
   padding: 30px 30px 30px 0;
   text-align: left;
@@ -174,8 +179,9 @@ html{
   right: 10%;
   top: 5px;
 }
+
 /* Adoptables */
-.adopt-wrapper{
+.adopt-wrapper {
   width: 80%;
   display: grid;
   /*grid-auto-rows: minmax(200px, auto);*/
@@ -185,14 +191,15 @@ html{
   align-items: stretch;
   margin: auto auto 1em auto;
   color: white;
-  text-align:center;
+  text-align: center;
 }
-.availables{
+
+.availables {
   margin: auto;
   text-align: center;
 }
-.dogs{
 
+.dogs {
   display: grid;
   grid-auto-rows: minmax(200px, auto);
   grid-template-columns: 1fr 1fr 1fr;
@@ -201,22 +208,22 @@ html{
   /*align-items: stretch;*/
   margin: auto 1em 1em 1em;
   color: black;
-  text-align:left;
+  text-align: left;
 }
 
-.dogs img{
+.dogs img {
   width: 100%;
 }
 
-.dog-info{
+.dog-info {
   border-radius: 25px;
   background: #eee;
   grid-column: 2/4;
   padding: 1em;
-
 }
+
 /* Application */
-.adoption-form-text{
+.adoption-form-text {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -229,18 +236,18 @@ html{
   color: black;
 }
 
-.adoption-form-text:hover{
+.adoption-form-text:hover {
   box-shadow: 0 0 10px 4px #ddd;
 }
 
-textarea.adoption-form-text{
-  resize:none;
+textarea.adoption-form-text {
+  resize: none;
   height: 100px;
   font-family: 'Lato', sans-serif;
 }
 
 /* Resources */
-.fun{
+.fun {
   background: url(../images/resources/fun.png) no-repeat center;
   background-size: cover;
   /*background: #f67280;*/
@@ -248,7 +255,7 @@ textarea.adoption-form-text{
   cursor: pointer;
 }
 
-.food{
+.food {
   background: url(../images/resources/food.png) no-repeat center;
   background-size: cover;
   /*background: #6c5b7c;*/
@@ -257,24 +264,24 @@ textarea.adoption-form-text{
   cursor: pointer;
 }
 
-.prep{
+.prep {
   background: url(../images/resources/prep.png) no-repeat center;
   background-size: cover;
   /*background: #c06c84;*/
   cursor: pointer;
 }
 
-.training{
+.training {
   background: url(../images/resources/training.png) no-repeat center;
   background-size: cover;
   /*background: #f8bf95;*/
   cursor: pointer;
 }
 
-.info-category{
+.info-category {
   display: grid;
   grid-auto-rows: minmax(200px, auto);
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
@@ -282,9 +289,10 @@ textarea.adoption-form-text{
   transition: 0.5s;
 }
 
-.info-link:hover, .prep:hover, .food:hover, .training:hover, .fun:hover{
+.info-link:hover, .prep:hover, .food:hover, .training:hover, .fun:hover {
   box-shadow: 0 0 10px 4px #ddd;
 }
+
 /* .info-category > div{
   padding: 1em;
   border-radius: 20px;
@@ -294,8 +302,7 @@ textarea.adoption-form-text{
 .info-category > div:nth-child(odd){
   background: #ddd;
 } */
-
-.info-link{
+.info-link {
   color: black;
   min-height: 250px;
   padding: 1em;
@@ -304,15 +311,14 @@ textarea.adoption-form-text{
   transition: 0.5s;
 }
 
-.info-category div:nth-child(even){
+.info-category div:nth-child(even) {
   background: #ddd;
 }
 
 /* .info-link:nth-of-type(2n){
   background: #ddd;
 } */
-
-.resource-wrapper{
+.resource-wrapper {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
   grid-template-columns: 2fr 1fr 2fr;
@@ -324,7 +330,7 @@ textarea.adoption-form-text{
   transition: 0.5s;
 }
 
-.resource-wrapper > div{
+.resource-wrapper>div {
   padding: 2em;
   border-radius: 20px;
 }
@@ -334,19 +340,19 @@ textarea.adoption-form-text{
 Dark Code(2018)."Responsive Contact Us Section Using Only HTML & CSS".
 [YouTube video].https://www.youtube.com/watch?v=opbtRRSHGnk.
 */
-
-#contact-us{
+#contact-us {
   color: white;
   font-size: 4rem;
 }
-.contact-form{
+
+.contact-form {
   max-width: 600px;
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
 }
 
-.contact-form-button{
+.contact-form-button {
   border: 0;
   background: #c06c84;
   color: white;
@@ -356,11 +362,11 @@ Dark Code(2018)."Responsive Contact Us Section Using Only HTML & CSS".
   transition: 0.5s;
 }
 
-.contact-form-button:hover{
+.contact-form-button:hover {
   background: #f67280;
 }
 
-.contact-form-text{
+.contact-form-text {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -374,21 +380,22 @@ Dark Code(2018)."Responsive Contact Us Section Using Only HTML & CSS".
   transition: 0.5s;
 }
 
-.contact-form-text:hover{
+.contact-form-text:hover {
   box-shadow: 0 0 10px 4px #f67280;
 }
 
-.contact-form-text::placeholder{
+.contact-form-text::placeholder {
   color: #111;
 }
 
-.contact-section{
+.contact-section {
   background: url(../images/contact.jpg) no-repeat center;
   background-size: cover;
   padding: 40px 0;
   text-align: center;
 }
-.scroll-box{
+
+.scroll-box {
   width: 300px;
   height: 200px;
   margin: auto;
@@ -396,28 +403,30 @@ Dark Code(2018)."Responsive Contact Us Section Using Only HTML & CSS".
   overflow-y: scroll;
 }
 
-.scroll-box::-webkit-scrollbar{
+.scroll-box::-webkit-scrollbar {
   width: 12px;
 }
 
-.scroll-box::-webkit-scrollbar-thumb{
+.scroll-box::-webkit-scrollbar-thumb {
   background: #f67280;
   border-radius: 6px;
 }
 
-textarea.contact-form-text{
-  resize:none;
+textarea.contact-form-text {
+  resize: none;
   height: 120px;
   font-family: 'Lato', sans-serif;
 }
-.volunteer{
+
+.volunteer {
   font-size: 1.8rem;
   line-height: 1.8;
   margin: auto;
   text-align: center;
   width: 50%;
 }
-.volunteer-tasks, .volunteer-items{
+
+.volunteer-tasks, .volunteer-items {
   list-style: none;
   padding-inline-start: 0;
 }
