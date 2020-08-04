@@ -29,6 +29,14 @@ html{
   font-size: 62.5%;
 }
 
+#big-logo{
+  width: 40%;
+}
+
+#index-name{
+  font-size: 4rem;
+  color: black;
+}
 .bottom-container{
   margin: auto;
   padding: 25px;
