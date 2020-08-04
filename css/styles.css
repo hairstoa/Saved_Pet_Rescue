@@ -173,6 +173,47 @@ html{
   right: 10%;
   top: 5px;
 }
+/* Adoptables */
+.adopt-wrapper{
+  width: 80%;
+  display: grid;
+  /*grid-auto-rows: minmax(200px, auto);*/
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  /*justify-items: stretch;*/
+  align-items: stretch;
+  margin: auto auto 1em auto;
+  color: white;
+  text-align:center;
+}
+.availables{
+  margin: auto;
+  text-align: center;
+}
+.dogs{
+
+  display: grid;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: stretch;
+  /*align-items: stretch;*/
+  margin: auto 1em 1em 1em;
+  color: black;
+  text-align:left;
+}
+
+.dogs img{
+  width: 100%;
+}
+
+.dog-info{
+  border-radius: 25px;
+  background: #eee;
+  grid-column: 2/4;
+  padding: 1em;
+
+}
 /* Application */
 .adoption-form-text{
   display: block;
